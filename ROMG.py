@@ -53,7 +53,7 @@ edges = generate_random_edges(num_vertex, num_edges)
 
 # Сохранение модели в OBJ файл
 desktop_path = os.path.expanduser("~")
-filename = os.path.join(desktop_path, "random_model.obj")
+filename = os.path.join(desktop_path, "Desktop", "cube_with_corridor_and_room.obj")
 create_obj_file(vertex, edges, filename)
 print(f"Model saved as {filename}")
 
